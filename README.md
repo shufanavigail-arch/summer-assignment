@@ -50,5 +50,7 @@ states the number of attempts it took to guess the sequence appears.
 
 Code validation:
 
-A small part of the code that checks the program does what it's supposed to do by checking
-different kinds of sequences, and checking the result is as it should be.
+Variable "correct_seq" is used as a 4 letter sequence. A list of sequences
+"sequences" is used as a comparing sequence. It contains invalid sequances,
+as well as valid sequances for which we know the number of bulls and cows. 
+
